@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-cart">
+        <div class="head-frame">
+            <h3>Check In Branches Stock</h3>
+            <a href="/product.html"><span class="close-btn" onclick="closeOverlay()">✖</span></a>
+        </div>
+    
+        <!-- Bảng hiển thị sản phẩm trong giỏ hàng -->
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Hình ảnh</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá tiền</th>
+                    <th>Tổng</th>
+                    <th>Xóa</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Sản phẩm sẽ được thêm vào đây -->
+            </tbody>
+        </table>
+    
+        <!-- Tổng số sản phẩm và tổng tiền -->
+        <div class="cart-summary">
+            <p>Tổng sản phẩm: <span id="total-items">0</span></p>
+            <p>Tổng tiền: <span id="total-price">0</span></p>
+        </div>
+    
+        <!-- Chọn mã giảm giá -->
+        <div class="selectBox">
+            <select class="discount-select" id="discount-code" onchange="applyDiscount()">
+                <option value="0">Chọn mã giảm giá</option>
+                <option value="10">Giảm 10%</option>
+                <option value="20">Giảm 20%</option>
+                <option value="30">Giảm 30%</option>
+            </select>
+        </div>
+    
+        <!-- Các nút thao tác -->
+        <button class="payment-btn" onclick="openOverlay()">Thanh toán</button>
+    
+        <!-- Chọn phương thức thanh toán -->
+        <div class="paymentBox">
+            <select class="payment-method" id="payment-method">
+                <option value="0">Phương thức thanh toán</option>
+                <option value="cod">Thanh toán khi nhận hàng</option>
+                <option value="credit">Thẻ tín dụng/Thẻ ghi nợ</option>
+            </select>
+        </div>
+    
+    </div>
+
+    <div id="payment-overlay" class="overlay">
+        <div class="overlay-content">
+            <span class="close-btn" onclick="closeOverlay()">✖</span>
+            <h2>Chọn sản phẩm để thanh toán</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Chọn</th>
+                        <th>Sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Giá</th>
+                    </tr>
+                </thead>
+                <tbody id="payment-items"></tbody>
+            </table>
+            <button onclick="confirmPayment()">Xác nhận thanh toán</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    
+</html>

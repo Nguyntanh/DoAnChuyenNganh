@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header>
+        <div class="logo_container">
+            <img src="landing_assets/images/Logo_Website.png" alt="Logo_Website" class="logo">
+        </div>
+        <nav class="menu">
+            <div class="menu_item">
+                <a href="landing.html">Women Make Up</a>
+                <div class="submenu">
+                    <a href="#">Son Môi</a>
+                    <a href="#">Kem Nền</a>
+                    <a href="#">Phấn Má</a>
+                    <a href="#">Nước Hoa</a>
+                </div>
+            </div>
+            <div class="menu_item">
+                <a href="product.html">Women Skincare</a>
+                <div class="submenu">
+                    <a href="#">Sữa Rửa Mặt</a>
+                    <a href="#">Kem Dưỡng Ẩm</a>
+                    <a href="#">Mặt Nạ</a>
+                    <a href="#">Tẩy da chết</a>
+                </div>
+            </div>
+            <div class="menu_item">
+                <a href="#">Gifs & Sets</a>
+                <div class="submenu">
+                    <a href="#">Combo Trang Điểm</a>
+                    <a href="#">Quà Tặng Đặc Biệt</a>
+                </div>
+            </div>
+            <div class="menu_item">
+                <a href="#">Branches</a>
+                <div class="submenu">
+                    <a href="#">Chi Nhánh Hà Nội</a>
+                    <a href="#">Chi Nhánh Hồ Chí Minh</a>
+                </div>
+            </div>
+            <div class="menu_item">
+                <a href="#">Our Brand</a>
+                <div class="submenu">
+                    <a href="#">Giới Thiệu</a>
+                    <a href="#">Sứ Mệnh</a>
+                </div>
+            </div>
+        </nav>
+        <div class="func">
+            <a href="#"><img src="landing_assets/images/search-icon-png-5.png" alt="Search" class="search"></a>
+            <a href="#"><img src="landing_assets/images/vertical-line.png" alt="Vertical_line" class="vertical_line"></a>
+            <a href="#"><img src="landing_assets/images/language-multilingual.png" alt="Search" class="language"></a>
+            <p>US<span>(EN)</span></p>
+        </div>
+    </header>
+
+    <div class="return-home">
+        <div class="home"><a href="home.htm">Home</a></div>
+        <div class="arrow1"><span>&#10095;</span></div>
+        <div class="text1"><p>Women Skincare</p></div>
+    </div>
+
+    <div class="frame_26086026">
+        <div class="women_skincare">Women skincare </div>
+    </div>
+
+    <div class="frame_26085812">
+        <div class="text_filter">filter</div>
+        <div class="frame_26085811">
+            <div class="frame_OOSI">
+                <div class="text_OOSI">Out of stock items</div>
+                <div class="switch" onclick="toggleSwitch()">
+                    <div class="track"></div>
+                    <div class="rectang8"></div>
+                </div>                
+            </div>
+            <div class="filter">
+                <div class="frame_layout">
+                    <div class="text_layout">category</div>
+                    <div class="arrow">
+                        <div class="vector"></div>
+                    </div>
+                </div>
+                <div class="list_item">
+                    <ul class="checklist">
+                        <li>
+                            <input type="checkbox" id="item1" />
+                            <label for="item1">Sữa Rửa Mặt</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item2" />
+                            <label for="item2">Nước Hoa</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item3" />
+                            <label for="item3">Nước Tẩy Trang</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item4" />
+                            <label for="item4">Son</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item5" />
+                            <label for="item5">Phấn Phủ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item6" />
+                            <label for="item6">Tẩy Da Chết</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item7" />
+                            <label for="item7">Kem chống nắng</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item8" />
+                            <label for="item8">Mặt Nạ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item9" />
+                            <label for="item9">Gel Rửa Mặt</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item10" />
+                            <label for="item10">Mascara</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sort_layout">
+        <div class="sort_frame">
+            <div class="sort_text">
+                <div class="text_sort">Sort<span id="selected_sort">: Recommended</span></div>
+            </div>
+            <div class="arrow_drop_down">
+                <div class="vector"></div>
+            </div>
+        </div>
+        <div class="sort_sub_menu">
+            <div class="sort_option" data-sort="recommended">Recommended</div>
+            <div class="sort_option" data-sort="low-to-high">Price: Low to High</div>
+            <div class="sort_option" data-sort="high-to-low">Price: High to Low</div>
+        </div>
+    </div>
+    
+
+    <div class="product_layout">
+        <div class="frame_product">
+            <div class="product_card" data-category="Nước hoa" data-link="422206552.html" data-stock="out">
+                <img src="img/422206552.jpg" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Nước Hoa Nam Versace Man Eau Fraiche EDT 100ml</div>
+                    <div class="anti">Versace | Ý</div>
+                    <div class="money">1.717.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Nước hoa" data-link="422216659.html" data-stock="in">
+                <img src="img/422216659.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Nước Hoa Nam Tommy Hilfiger Impact Intense EDP 50ml</div>
+                    <div class="anti">Tommy Hilfiger | Mỹ</div>
+                    <div class="money">1.463.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Sữa rửa mặt" data-link="422208973.html">
+                <img src="img/422208973.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Sữa Rửa Mặt CeraVe Sạch Sâu Cho Da Thường Đến Da Dầu 473ml</div>
+                    <div class="anti">CeraVe | Mỹ</div>
+                    <div class="money">367.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Nước hoa" data-link="318900012.html">
+                <img src="img/318900012.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Nước Hoa Hồng Klairs Không Mùi Cho Da Nhạy Cảm 180ml</div>
+                    <div class="anti">Klairs | Hàn Quốc</div>
+                    <div class="money">208.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Nước tẩy trang" data-link="200400003.html">
+                <img src="img/200400003.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Nước Tẩy Trang Bioderma Dành Cho Da Nhạy Cảm 500ml</div>
+                    <div class="anti">Bioderma | Pháp</div>
+                    <div class="money">336.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Nước tẩy trang" data-link="205100137.html">
+                <img src="img/205100137.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Nước Tẩy Trang L'Oreal Tươi Mát Cho Da Dầu, Hỗn Hợp 400ml</div>
+                    <div class="anti">L'Oreal | Pháp</div>
+                    <div class="money">148.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Son" data-link="248700071.html">
+                <img src="img/248700071.jpg" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Son Thỏi Naris Cosmetics Mịn Môi 105</div>
+                    <div class="anti">Naris Cosmetics | Nhật Bản</div>
+                    <div class="money">316.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Kem chống nắng" data-link="253900006.html">
+                <img src="img/253900006.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Kem Chống Nắng Skin1004 Cho Da Nhạy Cảm SPF 50+ 50ml</div>
+                    <div class="anti">Skin1004 | Hàn Quốc</div>
+                    <div class="money">205.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Tẩy da chết" data-link="308100015.html">
+                <img src="img/308100015.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Tẩy Da Chết Toàn Thân Cocoon Cà Phê Đắk Lắk 200ml</div>
+                    <div class="anti">Cocoon | Việt Nam</div>
+                    <div class="money">89.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Son" data-link="422206303.html">
+                <img src="img/422206303.jpg" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Son Kem Lì 3CE Sepia - Đỏ Gạch Đậm 4.6g</div>
+                    <div class="anti">3CE | Hàn Quốc</div>
+                    <div class="money">277.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Son" data-link="422215428.html">
+                <img src="img/422215428.jpg" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Son Lì 3CE Mịn Môi Whip Red - Đỏ Hồng Đất 4g</div>
+                    <div class="anti">3CE | Hàn Quốc</div>
+                    <div class="money">337.000.đ</div>
+                </div>
+            </div>
+            <div class="product_card" data-category="Phấn phủ" data-link="422220412.html">
+                <img src="img/422220412.png" alt="product" class="product_image">
+                <div class="text_pro_1">
+                    <div class="beautya">Phấn Phủ Carslan Dạng Nén Vỏ Đen Màu Tím 8g</div>
+                    <div class="anti">Carslan | Trung Quốc</div>
+                    <div class="money">278.000.đ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let showOutOfStock = false; // Trạng thái hiển thị sản phẩm hết hàng
+    
+            const switchElement = document.querySelector('.switch');
+            const rectang8 = document.querySelector('.rectang8');
+            const track = document.querySelector('.track');
+            const checkboxes = document.querySelectorAll(".checklist input[type='checkbox']");
+            const products = document.querySelectorAll(".product_card");
+            const sortSubMenu = document.querySelector('.sort_sub_menu');
+            const productContainer = document.querySelector(".product_list");
+    
+            function updateProductVisibility() {
+                const selectedCategories = Array.from(checkboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .map(checkbox => checkbox.nextElementSibling.textContent.toLowerCase());
+    
+                products.forEach(product => {
+                    const category = product.getAttribute("data-category")?.toLowerCase();
+                    const isOutOfStock = product.getAttribute("data-stock") === "out";
+    
+                    let shouldDisplay = (selectedCategories.length === 0 || selectedCategories.includes(category));
+    
+                    // Nếu sản phẩm hết hàng và toggle chưa bật, ẩn nó
+                    if (isOutOfStock && !showOutOfStock) {
+                        shouldDisplay = false;
+                    }
+    
+                    product.style.display = shouldDisplay ? "block" : "none";
+                });
+            }
+    
+            // Xử lý Toggle Switch
+            function toggleSwitch() {
+                if (!switchElement || !rectang8 || !track) return;
+    
+                showOutOfStock = !showOutOfStock;
+                rectang8.style.transform = showOutOfStock ? 'translateX(24px)' : 'translateX(0)';
+                track.style.backgroundColor = showOutOfStock ? '#A10550' : '#ccc';
+    
+                updateProductVisibility();
+            }
+    
+            if (switchElement) {
+                switchElement.addEventListener('click', toggleSwitch);
+            }
+    
+            if (checkboxes.length > 0 && products.length > 0) {
+                checkboxes.forEach(checkbox => {
+                    checkbox.addEventListener("change", updateProductVisibility);
+                });
+            }
+    
+            // Dropdown bộ lọc danh mục
+            const arrow = document.querySelector('.arrow');
+            const frame = document.querySelector('.list_item');
+            const filter = document.querySelector('.filter');
+            const textCategory = document.querySelector('.text_layout');
+    
+            if (arrow && frame && filter && textCategory) {
+                arrow.addEventListener('click', () => {
+                    const isOpen = frame.style.display === 'flex';
+                    frame.style.display = isOpen ? 'none' : 'flex';
+                    filter.style.height = isOpen ? '56px' : '394px';
+                    textCategory.style.color = isOpen ? '#0C0C0C' : '#A10550';
+                    arrow.classList.toggle('open', !isOpen);
+                });
+            }
+    
+            // Dropdown sắp xếp sản phẩm
+            const arrowDropDown = document.querySelector('.arrow_drop_down');
+    
+            if (arrowDropDown && sortSubMenu) {
+                arrowDropDown.addEventListener('click', () => {
+                    sortSubMenu.style.display = (sortSubMenu.style.display === 'block') ? 'none' : 'block';
+                });
+            }
+    
+            if (sortSubMenu) {
+                sortSubMenu.innerHTML = `
+                    <div class="sort_option" data-sort="high-to-low">Giá: Cao đến Thấp</div>
+                    <div class="sort_option" data-sort="low-to-high">Giá: Thấp đến Cao</div>
+                `;
+            }
+    
+            // Sắp xếp sản phẩm theo giá
+            function sortProducts(order) {
+                if (!productContainer) return;
+    
+                const productArray = Array.from(products);
+    
+                productArray.sort((a, b) => {
+                    const priceA = parseFloat(a.querySelector(".money").textContent.replace(/[^0-9]/g, "")) || 0;
+                    const priceB = parseFloat(b.querySelector(".money").textContent.replace(/[^0-9]/g, "")) || 0;
+                    return order === "high-to-low" ? priceB - priceA : priceA - priceB;
+                });
+    
+                productArray.forEach(product => productContainer.appendChild(product));
+            }
+    
+            document.querySelectorAll(".sort_option").forEach(option => {
+                option.addEventListener("click", function () {
+                    const sortType = this.getAttribute("data-sort");
+                    sortProducts(sortType);
+                    sortSubMenu.style.display = "none";
+                });
+            });
+    
+            // Click vào sản phẩm để chuyển trang
+            document.querySelectorAll(".product_card").forEach(product => {
+                product.addEventListener("click", function () {
+                    const productLink = product.getAttribute("data-link");
+                    if (productLink) {
+                        window.location.href = productLink;
+                    }
+                });
+            });
+    
+            // Khởi động bộ lọc khi trang load
+            updateProductVisibility();
+        });
+    </script>    
+</body>
+</html>

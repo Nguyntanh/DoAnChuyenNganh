@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    width: 1440px;
+    height: 1833px;
+    background-color: #FAF9F5;
+    text-transform: capitalize;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+.header {
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    width: 1440px;
+    height: 107px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DFDFDF;
+    z-index: 5;
+}
+
+.logo-img {
+    position: absolute;
+    width: 120px;
+    height: 59px;
+    top: 24px;
+    left: 108px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 1;
+}
+
+#circle-shadow {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    top: 19px;
+    left: 78px;
+    gap: 0px;
+    background-color: #A10550; 
+    border-radius: 100%;
+    backdrop-filter: blur(250px); /* Sử dụng đúng thuộc tính backdrop-filter */
+    box-shadow: 0 0 114px 114px #A10550; 
+    opacity: 0.2;
+    z-index: 0;
+     
+}
+
+.navbar {
+    position: absolute;
+    width: 673px;
+    height: 22px;
+    top: 61px;
+    left: 383.5px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #b4004e;
+}
+
+.navbar a:nth-child(2) {
+    color: #b4004e;
+}
+
+.actions {
+    position: absolute;
+    width: 144px;
+    height: 48px;
+    top: 44px;
+    left: 1188px;
+    gap: 4px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    gap: 4px;
+}
+
+
+.search-img{
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+}
+
+#line1{
+    width: 24px;
+    height: 0px;
+    gap: 0px;
+    transform: rotate(90deg);
+    opacity: 0px;
+    border: 1px solid #868686
+}
+
+.globe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 48px;
+    gap: 4px;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    transition: font-weight 0.3s;
+}
+
+.globe img {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+}
+
+.globe-text{
+    display: flex;
+    text-align: start;
+    width: 52px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.nation{
+    width: 52px;
+    height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #0C0C0C
+}
+
+.language{
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.globe:hover .nation {
+    font-weight: 300; 
+}
+
+.globe:hover .language {
+    font-weight: 300; 
+    color: #404040; 
+}
+
+/* HEADER */
+.breadcrumb {
+    position: absolute;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 803px;
+    height: 45px;
+    top: 139px;
+    left: 108px;
+    gap: 5px;
+    z-index: 1;
+}
+
+.breadcrumb a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: black; 
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: #b4004e; 
+}
+
+.breadcrumb p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    margin: 0;
+}
+
+.arrow {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin: 0 0px; 
+    color: #868686;
+    opacity: 1;
+}
+
+.product_frame{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    width: 704px;
+    height: 605px;
+    top: 192px;
+    left: 212px;
+}
+
+.product_frame img {
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product_info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 392px;
+    height: 282px;
+    top: 185px;
+    left: 940px;
+    gap: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Open Sans, sans-serif;
+}
+
+.product_info h1{
+    width: 392px;
+    height: 135px;
+    color: #A10550;
+}
+
+.product_info p{
+    width: 392px;
+    gap: 8px;
+    color: #868686;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.money{
+    width: 392px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.quantity_selector {
+    margin-top: 10px;
+}
+
+#quantity {
+    width: 50px;
+    text-align: center;
+}
+
+.total_price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buy_product {
+    position: absolute;
+    background: #A10550;
+    width: 392px;
+    height: 45px;
+    top: 563px;
+    left: 940px;
+    gap: 8px;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.buy_product:hover {
+    background: #87043D;
+    transform: scale(1.0);
+}
+
+.buy_product:active {
+    background: #5E032A;
+    transform: scale(0.95);
+}
+
+.buy_product p {
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+.product_details {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    background: #FFFFFF;
+    width: 800px;
+    max-height: 400px;
+    top: 869px;
+    left: 108px;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    overflow: auto; 
+
+}
+
+.event_layout{
+    position: absolute;
+    width: 392px;
+    height: 158px;
+    top: 639px;
+    left: 940px;
+    gap: 16px;
+    padding: 16px;
+    background: #FBEFF2;
+}
+
+.product_event {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    margin-bottom: 10px;
+}
+
+.event-icon {
+    width: 24px; 
+    height: 24px;
+}
+
+.product_event p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #79043C; 
+    text-align: left; 
+}
+
+
+
+.product_details h2 {
+    color: #A10550;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.product_details p {
+    font-size: 16px;
+    line-height: 1.6; 
+    text-align: justify; 
+    margin: 0;
+}

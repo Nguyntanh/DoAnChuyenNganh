@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product_info.css">
+</head>
+<body>
+    <header class="header">
+        <img src="assets/img/logo.png" alt="BeautyA Logo" class="logo-img">
+        
+        <nav class="navbar">
+            <a href="#">Women Make UP</a>
+            <a href="#">Women Skincare</a>
+            <a href="#">Gifts & Sets</a>
+            <a href="#">Branches</a>
+            <a href="our_brand.htm">Our Brand</a>
+        </nav>
+
+        <div class="actions">   
+            <div class="search-btn">
+                <img src="assets/img/search icon.png" alt="search" class="search-img">
+            </div>
+            <div id="line1"></div>
+            <div class="globe">
+                <img src="assets/img/language.png" alt="globe" class="globe-img">
+                <div id="globe-text">
+                    <a class="nation">US</a>
+                    <a class="language">(EN)</a>
+                </div>
+            </div>
+        </div>
+        <div id="circle-shadow"></div>          
+    </header>
+
+    <div class="breadcrumb">
+        <a href="#">Home</a>
+        <span class="arrow">&#8250;</span> 
+        <a href="/product/product.html">Women Skincare</a>
+        <span class="arrow">&#8250;</span> 
+        <p>Nước Hoa Nam Versace Man Eau Fraiche EDT 100ml</p>
+    </div>
+
+    <div class="product_frame">
+        <img src="/product/assets/img/422206552.jpg" alt="product" class="product-img">
+    </div>
+
+    <div class="product_info">
+        <h1>Nước Hoa Nam Versace Man Eau Fraiche EDT 100ml</h1>
+        <p>Eau Fraiche Eau De Toilette</p>
+        <div class="money" id="product-price" data-price="1717000">1.717.000đ</div>
+    
+        <!-- Chọn số lượng -->
+        <div class="quantity_selector">
+            <label for="quantity">Số lượng:</label>
+            <input type="number" id="quantity" value="1" min="1">
+        </div>
+    
+        <!-- Tổng giá tiền -->
+        <div class="total_price">
+            Tổng: <span id="total_price">1.717.000đ</span>
+        </div>
+    </div>
+    
+    <button class="buy_product">
+        <p>THÊM VÀO GIỎ HÀNG</p>
+    </button>
+
+    <div class="event_layout">
+        <div class="product_event">
+            <img src="/product/assets/img/event_icon/giftcard.png" alt="Gift Icon" class="event-icon">
+            <p>Receive 2 Free Samples When You Spend $100</p>
+        </div>
+        <div class="product_event">
+            <img src="/product/assets/img/event_icon/discount.png" alt="Tag Icon" class="event-icon">
+            <p>Receive $2 When You Return 5 Empty Containers</p>
+        </div>
+        <div class="product_event">
+            <img src="/product/assets/img/event_icon/question_answer.png" alt="Chat Icon" class="event-icon">
+            <p>Receive Free 1-2-1 Expert Advice In Branches</p>
+        </div>
+    </div>
+    
+    <div class="product_details">
+        <h2>Mô tả sản phẩm</h2>
+        <p>Nước Hoa Nam Versace Man Eau Fraiche EDT 100ml là sản phẩm nước hoa nam đến từ thương hiệu Versace nổi tiếng của Ý. Sản phẩm ra đời vào năm 2006, đây là một mùi hương nam tính, thanh lịch được chế tác dưới bàn tay tài hoa của Olivier Cresp. Versace Man Eau Fraiche mang phong cách tươi mới, thanh lịch và hiện đại được tạo ra dành cho những người đàn ông trẻ tuổi, năng động, yêu thích sự thoải mái và tự do. Nước hoa là sự kết hợp hài hòa giữa hương cam chanh, gỗ và các thành phần thảo mộc. Đây là mùi hương mang đậm nét đặc trưng của vùng biển Địa Trung Hải, mang lại sự sảng khoái và tươi mát</p>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const priceElement = document.getElementById("product-price");
+            const quantityInput = document.getElementById("quantity");
+            const totalPriceElement = document.getElementById("total_price");
+        
+            // Lấy giá gốc của sản phẩm từ data attribute
+            const pricePerItem = parseInt(priceElement.getAttribute("data-price"));
+        
+            // Hàm cập nhật tổng giá
+            function updateTotalPrice() {
+                const quantity = parseInt(quantityInput.value) || 1;
+                const totalPrice = quantity * pricePerItem;
+                totalPriceElement.textContent = totalPrice.toLocaleString("vi-VN") + "đ";
+            }
+        
+            // Gọi hàm khi số lượng thay đổi
+            quantityInput.addEventListener("input", updateTotalPrice);
+        
+            // Cập nhật lần đầu tiên
+            updateTotalPrice();
+        });        
+    </script>
+
+
+
+</body>
+</html>

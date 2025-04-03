@@ -1,0 +1,365 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DoAnData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\supportticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\supportticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\data\\doandatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\data\\doandatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\supportticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\supportticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|d:\\doandata\\doandata\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858F8724-62AF-44ED-A93C-549F2A6BB789}|DoAnData\\DoAnData.csproj|solutionrelative:doandata\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAowI8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:33:31.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowCoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:16:34.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\Cart.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\Cart.cs",
+              "RelativeToolTip": "DoAnData\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:09:40.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T14:10:37.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:47:17.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\ReviewsController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:47:46.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupportTicketController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\SupportTicketController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\SupportTicketController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\SupportTicketController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\SupportTicketController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:51:52.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:20:35.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartItemController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\CartItemController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\CartItemController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\CartItemController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\CartItemController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:50:47.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\CartItem.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\CartItem.cs",
+              "RelativeToolTip": "DoAnData\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:10:00.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DoAnData\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAswIEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:36:40.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Program.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Program.cs",
+              "RelativeToolTip": "DoAnData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T07:59:12.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\appsettings.json",
+              "RelativeDocumentMoniker": "DoAnData\\appsettings.json",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\appsettings.json",
+              "RelativeToolTip": "DoAnData\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-30T07:57:55.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\Review.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\Review.cs",
+              "RelativeToolTip": "DoAnData\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:09:20.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "DoAnData\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:07:52.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoAnDataContext.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Data\\DoAnDataContext.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Data\\DoAnDataContext.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Data\\DoAnDataContext.cs",
+              "RelativeToolTip": "DoAnData\\Data\\DoAnDataContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:00:02.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\Product.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\Product.cs",
+              "RelativeToolTip": "DoAnData\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:05:18.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\Order.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\Order.cs",
+              "RelativeToolTip": "DoAnData\\Models\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:07:05.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SupportTicket.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\SupportTicket.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\SupportTicket.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\SupportTicket.cs",
+              "RelativeToolTip": "DoAnData\\Models\\SupportTicket.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:10:47.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\User.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\User.cs",
+              "RelativeToolTip": "DoAnData\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:04:34.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\DoAnData\\DoAnData\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DoAnData\\Models\\Category.cs",
+              "ToolTip": "D:\\DoAnData\\DoAnData\\Models\\Category.cs",
+              "RelativeToolTip": "DoAnData\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:04:05.72Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

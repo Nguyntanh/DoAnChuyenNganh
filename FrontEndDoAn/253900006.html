@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product_info.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo.png" alt="BeautyA Logo" class="logo-img">
+        
+        <nav class="navbar">
+            <a href="#">Women Make UP</a>
+            <a href="#">Women Skincare</a>
+            <a href="#">Gifts & Sets</a>
+            <a href="#">Branches</a>
+            <a href="our_brand.htm">Our Brand</a>
+        </nav>
+
+        <div class="actions">   
+            <div class="search-btn">
+                <img src="assets/img/search icon.png" alt="search" class="search-img">
+            </div>
+            <div id="line1"></div>
+            <div class="globe">
+                <img src="assets/img/language.png" alt="globe" class="globe-img">
+                <div id="globe-text">
+                    <a class="nation">US</a>
+                    <a class="language">(EN)</a>
+                </div>
+            </div>
+        </div>
+        <div id="circle-shadow"></div>          
+    </header>
+
+    <div class="breadcrumb">
+        <a href="#">Home</a>
+        <span class="arrow">&#8250;</span> 
+        <a href="/product.html">Women Skincare</a>
+        <span class="arrow">&#8250;</span> 
+        <p>Kem Chống Nắng Skin1004 Cho Da Nhạy Cảm SPF 50+ 50ml</p>
+    </div>
+
+    <div class="product_frame">
+        <img src="img/253900006.png" alt="product" class="product-img">
+    </div>
+
+    <div class="product_info">
+        <h1>Kem Chống Nắng Skin1004 Cho Da Nhạy Cảm SPF 50+ 50ml</h1>
+        <p></p>
+        <div class="money" id="product-price" data-price="205000">205.000đ</div>
+    
+        <!-- Chọn số lượng -->
+        <div class="quantity_selector">
+            <label for="quantity">Số lượng:</label>
+            <input type="number" id="quantity" value="1" min="1">
+        </div>
+    
+        <!-- Tổng giá tiền -->
+        <div class="total_price">
+            Tổng: <span id="total_price">205.000đ</span>
+        </div>
+    </div>
+    
+    <button class="buy_product" onclick="addToCartAndRedirect(event)">THÊM VÀO GIỎ HÀNG</button>
+
+    <div class="event_layout">
+        <div class="product_event">
+            <img src="/assets/img/event_icon/giftcard.png" alt="Gift Icon" class="event-icon">
+            <p>Receive 2 Free Samples When You Spend $100</p>
+        </div>
+        <div class="product_event">
+            <img src="/assets/img/event_icon/discount.png" alt="Tag Icon" class="event-icon">
+            <p>Receive $2 When You Return 5 Empty Containers</p>
+        </div>
+        <div class="product_event">
+            <img src="/assets/img/event_icon/question_answer.png" alt="Chat Icon" class="event-icon">
+            <p>Receive Free 1-2-1 Expert Advice In Branches</p>
+        </div>
+    </div>
+    
+    <div class="product_details">
+        <h2>Mô tả sản phẩm</h2>
+        <p>Kem Chống Nắng Skin1004 Cho Da Nhạy Cảm là sản phẩm kem chống nắng da mặt đến từ thương hiệu mỹ phẩm Skin1004 của Hàn Quốc, là kem chống nắng vật lý với chiết xuất rau má và chất kem mỏng nhẹ có màu giúp che phủ nhẹ khuyết điểm cho da. Công thức đa năng vừa chống nắng vừa đều màu da lại dưỡng ẩm chính là sản phẩm mà những cô nàng da mụn hay da dầu nhạy cảm cần vì không cần sử dụng quá nhiều bước lỉnh kỉnh.</p>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const priceElement = document.getElementById("product-price");
+            const quantityInput = document.getElementById("quantity");
+            const totalPriceElement = document.getElementById("total_price");
+        
+            // Lấy giá gốc của sản phẩm từ data attribute
+            const pricePerItem = parseInt(priceElement.getAttribute("data-price"));
+        
+            // Hàm cập nhật tổng giá
+            function updateTotalPrice() {
+                const quantity = parseInt(quantityInput.value) || 1;
+                const totalPrice = quantity * pricePerItem;
+                totalPriceElement.textContent = totalPrice.toLocaleString("vi-VN") + "đ";
+            }
+        
+            // Gọi hàm khi số lượng thay đổi
+            quantityInput.addEventListener("input", updateTotalPrice);
+        
+            // Cập nhật lần đầu tiên
+            updateTotalPrice();
+        });        
+    </script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
